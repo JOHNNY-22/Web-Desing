@@ -1,0 +1,170 @@
+
+/* Elements */
+body {
+  margin: 0px;
+  text-align: center;
+  background-color: #F8F3ED;
+}
+
+h1 {
+  color: #212529;
+  margin-top: 50px auto 0 auto;
+  font-size: 5.625rem;
+
+  font-family: 'Sacramento' , cursive;
+}
+
+h2 {
+  color: #212529;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #212529;
+  font-family: 'Monserrat', sans-serif;
+}
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+  align-self: auto;
+}
+/*cards */
+.cards {
+
+  padding: 20px;
+  display: flex;
+
+}
+.card {
+
+  margin-right: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #212529;
+  border-radius: 15%;
+  flex:50%;
+}
+.webPhotos {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 20%;
+}
+.webPhotos1 {
+  margin-top: 20px;
+  padding-top: 10px;
+  width: 60px;
+  height: 70px
+}
+/*End Cards*/
+
+/* Intro */
+
+.top {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.top-nube {
+  left : 200px;
+  position: relative;
+}
+
+.down-nube {
+  position: absolute;
+}
+/* Presentation*/
+.profile {
+  padding: 30px;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.profile-img {
+  width: 10%;
+}
+
+
+
+
+
+/* Div Skills */
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2
+}
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%
+}
+.code2-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px
+}
+.code3-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%
+}
+
+/* Contact me */
+.contact-me {
+  background-color: #F8F3ED;
+  padding: 40px;
+  text-align: center;
+}
+
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Quicksand', sans-serif;
+  color: #FDEFEF;
+  font-size: 16px;
+  background: #F1889F;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background:#ed6885;
+  text-decoration: none;
+}
+
+
+
+/* Informatio About Me */
+.infomedia
+{
+  background-color: #898AA6;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+.links {
+ padding: 2%;
+ font-size: 1.25rem;
+ text-decoration: none;
+ color: #cffafe;
+}
